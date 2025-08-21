@@ -15,6 +15,7 @@ public class SavingsAccount2 {
     }
 
         public double calcInterest(){
-        return balance * interestRate;
+            double interest = balance * interestRate / 12;
+            return interest;
     }
 }
