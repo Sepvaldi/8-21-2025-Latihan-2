@@ -1,4 +1,4 @@
-package AccountTest;
+package TugasBuPhasa;
 
 public class SavingsAccount2 {
     public double interestRate;
@@ -13,6 +13,7 @@ public class SavingsAccount2 {
         public void deposit(int x){
         balance += x;
     }
+
         public double calcInterest(){
         return balance * interestRate;
     }
