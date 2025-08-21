@@ -1,4 +1,4 @@
-package AccountTest;
+package TugasBuPhasa;
 
 public class AccountTest2 {
     public static void main(String[] args) {
@@ -8,6 +8,8 @@ public class AccountTest2 {
         sa0001.interestRate = 0.02;
         sa0001.displayCustomer();
         sa0001.deposit(500);
+        sa0001.displayCustomer();
+        sa0001.balance += sa0001.calcInterest();
         System.out.println("--------------------------");
 
         SavingsAccount2 sa0002 = new SavingsAccount2();
@@ -16,10 +18,10 @@ public class AccountTest2 {
         sa0002.interestRate = 0.07;
         sa0002.displayCustomer();
         sa0002.deposit(1000);
+        sa0002.displayCustomer();
+        sa0002.balance += sa0002.calcInterest();
         System.out.println("----------------------------");
-
     }
-        
 }
 
 
